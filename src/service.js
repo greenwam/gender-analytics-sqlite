@@ -22,7 +22,7 @@ class Service {
     }
 
     getParsedData() {
-        const datas = this.data.trim().split(',')
+        const datas = this.data.trim().toLowerCase().split(',')
         let parsedData = []
         for (const xData of datas) {
             if (!xData) continue
@@ -40,7 +40,7 @@ class Service {
 
     cleanName(strName='') {
         return strName
-            .toLowerCase()
+            .toUpperCase()
             .replace(/[^a-z']/gi, ' ')
     }
 

@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/rohmanahmad/gender-analytics-sqlite.git"
+    "url": "git+https://github.com/greenwam/gender-analytics-sqlite.git"
   },
   "author": "wildan ikbar pratama",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/rohmanahmad/gender-analytics-sqlite/issues"
+    "url": "https://github.com/greenwam/gender-analytics-sqlite/issues"
   },
-  "homepage": "https://github.com/rohmanahmad/gender-analytics-sqlite#readme",
+  "homepage": "https://github.com/greenwam/gender-analytics-sqlite#readme",
   "dependencies": {
     "lodash.flatten": "^4.4.0",
     "moment": "^2.29.4",
